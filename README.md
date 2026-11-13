@@ -120,6 +120,8 @@ of 0.701. Out-of-bag predictions from the bundled model agree closely
 
 ![Precision-recall curve of the m6A random forest](man/figures/prc_curve.jpg)
 
+![Complete ROC and PRC curves with AUROC and AUPRC](man/figures/roc_prc_precrec.jpg)
+
 ## Documentation
 
 ```r
