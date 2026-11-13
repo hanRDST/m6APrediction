@@ -1,0 +1,22 @@
+Package: m6APrediction
+Type: Package
+Title: Predict m6A Sites from Sequence and Structural Features
+Version: 1.0.0
+Authors@R: 
+    person(given = "Zihan", family = "Su",
+           email = "Zihan.Su2402@student.xjtlu.edu.cn",
+           role = c("aut", "cre"))
+Description: Provides a random forest classifier that predicts
+    N6-methyladenosine (m6A) RNA modification sites from sequence and
+    structural features. Candidate sites are described by GC content, RNA
+    type, RNA region, exon length, distance to the nearest splice junction,
+    evolutionary conservation and the five-nucleotide sequence context, and
+    the package returns the predicted probability of m6A together with a
+    binary status. A fitted model and a 100-row example feature table are
+    bundled so that both exported functions run out of the box.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: randomForest, stats
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
